@@ -11,11 +11,6 @@ public class StringCalculator {
         String[] numberArray = numbers.split(",");
         int sum = 0;
 
-        if(numberArray.length > 2){
-            throw new IllegalArgumentException();
-        }
-
-
         for (String i : numberArray) {
 
             int num = Integer.parseInt(i);
