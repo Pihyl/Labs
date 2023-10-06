@@ -1,0 +1,4 @@
+rootProject.name = 'SEK'
+include 'src:Test_java'
+findProject(':src:Test_java')?.name = 'Test_java'
+
